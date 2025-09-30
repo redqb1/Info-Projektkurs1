@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Info_Projektkurs1"
         mc:Ignorable="d"
+        WindowState="Maximized"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Image x:Name="cameraImage"
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"
+               
+               Width="640"
+               Height="480"
+               Stretch="UniformToFill"/>
+               
     </Grid>
 </Window>
